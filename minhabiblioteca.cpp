@@ -1,10 +1,10 @@
-// Arquivo .cpp: √© o arquivo onde iremos programar as fun√ß√µes que desejamos.
-// Sempre, antes de rodar o programa, precisamos declarar o prot√≥tipo
-// de cada fun√ß√£o no arquivo .h (header ou cabe√ßalho), que funciona como
-// um sum√°rio das fun√ß√µes dispon√≠veis na biblioteca
+// Arquivo .cpp: È o arquivo onde iremos programar as funÁıes que desejamos.
+// Sempre, antes de rodar o programa, precisamos declarar o protÛtipo
+// de cada funÁ„o no arquivo .h (header ou cabeÁalho), que funciona como
+// um sum·rio das funÁıes disponÌveis na biblioteca
 
 
-// inclus√£o do cabe√ßalho que aponta para esse arquivo
+// inclus„o do cabeÁalho que aponta para esse arquivo
 #include <iostream>
 using namespace std;
 
@@ -17,28 +17,28 @@ using namespace std;
 // .
 // .
 // .
-// A TUA PROGRAMA√á√ÉO DEVE FICAR DEPOIS DESSA MENSAGEM. DEIXE 5 LINHAS ACIMA SEM PROGRAMA√á√ÉO
+// A TUA PROGRAMA«√O DEVE FICAR DEPOIS DESSA MENSAGEM. DEIXE 5 LINHAS ACIMA SEM PROGRAMA«√O
 // ========================================================================================
 
 
-// LISTA DE FUN√á√ïES A SEREM CRIADAS:
+// LISTA DE FUN«’ES A SEREM CRIADAS:
 
-// Valores m√°ximo e m√≠nimo de um vetor
-// Valores m√°ximo e m√≠nimo de uma matriz
+// Valores m·ximo e mÌnimo de um vetor
+// Valores m·ximo e mÌnimo de uma matriz
 
-// m√©dia dos valores de um vetor
-// m√©dia dos valores de uma matriz
+// mÈdia dos valores de um vetor
+// mÈdia dos valores de uma matriz
 
 
 // Soma de matrizes     Matriz SOMA(Matriz A, Matriz B);
-// Soma de vetores      a fun√ß√£o de cima deve j√° servir;
+// Soma de vetores      a funÁ„o de cima deve j· servir;
 
 
-// Multiplica√ß√£o de matrizes
+// MultiplicaÁ„o de matrizes
 // produto interno entre vetores
 // produto vetorial entre vetores
-// mutiplica√ß√£o de matriz por vetor
-// transposi√ß√£o de vetores e matrizes
+// mutiplicaÁ„o de matriz por vetor
+// transposiÁ„o de vetores e matrizes
 // Copiar uma linha de uma matriz para um vetor
 // copiar uma coluna de uma matriz para um vetor
 
@@ -102,7 +102,7 @@ if (LA != LB || CA!=CB)
 
 void SOMA(Matriz &C , Matriz &D, Matriz &E)
 {
-    // Checar se as dimens√µes de A e B s√£o Iguais
+    // Checar se as dimensıes de A e B s„o Iguais
     // Criar uma nova Matriz onde cada elemento resulta da soma de cada elemento correspondente nas matrizes
     // deve retornar uma matriz
 
@@ -142,7 +142,7 @@ if (LA != LB || CA!=CB)//verifica as dimensoes
 
 void SUBTRAI(Matriz &C , Matriz &D, Matriz &E)
 {
-    // Checar se as dimens√µes de A e B s√£o Iguais
+    // Checar se as dimensıes de A e B s„o Iguais
     // Criar uma nova Matriz onde cada elemento resulta da soma de cada elemento correspondente nas matrizes
     // deve retornar uma matriz
 
@@ -182,7 +182,7 @@ if (LA != LB || CA!=CB)//verifica as dimensoes
 
 void MULTIPLICA (Matriz &A, Matriz &B, Matriz &C)
 {
-    // Checar se as dimens√µes S√ÉO COMPAT√çVEIS
+    // Checar se as dimensıes S√O COMPATÕVEIS
     // deve retornar uma matriz
 
     int LA, CA, LB, CB, LC, CC;
@@ -242,7 +242,7 @@ Matriz TRANSPOSTA(Matriz &A)
 
 double e2xTAYLOR (double x , int n)
 {
-    //S√âRIE DE tAYLOR DA FUN√á√ÉO e^{-2x}
+    //S…RIE DE tAYLOR DA FUN«√O e^{-2x}
     int i;
     double somat=0;
 
@@ -261,7 +261,7 @@ double e2xTAYLOR (double x , int n)
 
 double eaxTAYLOR (double x, double x0, double a, int n)// f(x) e de alfa x ponto em que eu quero calcular, ponto de onde eu parti, a e i=numero de termos
 {
-//fun√ßao e^(-ax)
+//funÁao e^(-ax)
     int i;
     double somat = exp(a*x0);
 
@@ -314,7 +314,7 @@ double eaxTAYLOR (double x, double x0, double a, int n)// f(x) e de alfa x ponto
 //    {
 //        somat = somat + ((pow(-1,i/2))*(pow(sin(x0), (i+1)%2))*(pow(cos(x0), i%2))*(pow(x-x0, i))/fatorial(i) );
 //
-//        //erro de aproxima√ßao na serie de taylor
+//        //erro de aproximaÁao na serie de taylor
 //
 //    }
 //    return somat;
@@ -441,7 +441,7 @@ void TriangSup (Matriz A , Matriz b , Matriz &X)
     }
 }
 
-//realiza elimina√ßao gaussiana
+//realiza eliminaÁao gaussiana
 void EliminGauss (Matriz A, Matriz b, Matriz &AA, Matriz &bb)
 
 {
@@ -493,11 +493,11 @@ void EliminGauss (Matriz A, Matriz b, Matriz &AA, Matriz &bb)
 
 void EliminGaussPivotParc (Matriz A, Matriz b, Matriz &AA, Matriz &bb)
     {
-        // Verificar se A √© quadrada
-        //Verificar se as dimensoes de A e b s√£o compativeis
+        // Verificar se A È quadrada
+        //Verificar se as dimensoes de A e b s„o compativeis
 
-        //verificar se as dimensoes de A e AA s√£o iguais
-        //Verificar se as dimensoes de B e bb s√£o iguais
+        //verificar se as dimensoes de A e AA s„o iguais
+        //Verificar se as dimensoes de B e bb s„o iguais
 
         Copia(A,AA);
         Copia(b,bb);
@@ -505,7 +505,7 @@ void EliminGaussPivotParc (Matriz A, Matriz b, Matriz &AA, Matriz &bb)
         int i, j, k, n;
         double m, temp_AA, temp_bb;
 
-        //n √© a dimens√£o do problema
+        //n È a dimens„o do problema
         n = b.dim('c');
 
         for(k=0; k<=n-2; k++)
@@ -538,6 +538,58 @@ void EliminGaussPivotParc (Matriz A, Matriz b, Matriz &AA, Matriz &bb)
 
 
 
+
+void EliminGaussPivot(Matriz A, Matriz b, Matriz &AA, Matriz &bb)
+{
+
+    Copia(A,AA);
+    Copia(b,bb);
+
+    int i,j,k,n, linha_pivot;
+    double w,x,m, temp_AA, temp_bb;
+
+    x = A.saida(j,k);
+    n = b.dim('c');
+
+
+    for(k=0; k<=n-2; k++)
+    {
+        w = A.saida(k,k);
+        for(j=k-1; j<=n-1; j++)
+        {
+            if (x>=w-1)
+            {
+                w = x;
+                linha_pivot = j;
+            }
+
+        }
+
+        for(i=k; i<=n-1; i++)
+        {
+
+           m = A.saida(i,k)/A.saida(k,k);
+           temp_bb= bb.saida(0,i)- m*b.saida(0,k);
+
+            for(j=k; j<=k-1; j++)
+            {
+                temp_AA = AA.saida(i,j)- m*A.saida(k,j);
+            }
+
+            bb.entrada(0,i, temp_bb);
+
+
+
+        }
+    }
+
+
+
+}
+
+
+
+
 void Jacobi ( Matriz A, Matriz b, Matriz X0, Matriz &X, double tol, int maximo)
 {
 
@@ -548,9 +600,9 @@ void Jacobi ( Matriz A, Matriz b, Matriz X0, Matriz &X, double tol, int maximo)
     double somatorio , temp, MAXI;
 
     Matriz Xk(1,n), Xk1(1,n);
-    // na primeira itera√ßao o vetor xk e igual ao x0
+    // na primeira iteraÁao o vetor xk e igual ao x0
     Copia(X0, Xk);
-    //contador de itera√ßoes
+    //contador de iteraÁoes
     for(k=0; k<maximo; k++)
     {
         for (i=0;i<n; i++)
@@ -580,7 +632,7 @@ void Jacobi ( Matriz A, Matriz b, Matriz X0, Matriz &X, double tol, int maximo)
                 MAXI = abs(Xk1.saida(0,m) - Xk.saida(0,m));
             }
         }
-        //se o maior dos erros for menor que a tolerancia parar o loop de itera√ßoes
+        //se o maior dos erros for menor que a tolerancia parar o loop de iteraÁoes
         if( MAXI < tol)
         {
 
@@ -606,204 +658,10 @@ void Jacobi ( Matriz A, Matriz b, Matriz X0, Matriz &X, double tol, int maximo)
 }
 
 
-//Realiza elimina√ß√£o gaussiana com pivoteamento
-void EliminGaussPivo(Matriz A, Matriz b, Matriz  &X, Matriz &AA, Matriz &bb, int DBGVIEW)
-{
-    //Verificar se A √© quadrada
-    //Verificar se as dimenses de A e b s√£o compatveis
-    //Verificar se as dimensoes de A e AA s√£o iguais
-    //Verificar se as dimensoes de b e bb s√£o iguais
-
-    int LA,CA,LAA,CAA,Lb,Cb,Lbb,Cbb,LX,CX;
-
-    LA = A.dim('l');
-    CA = A.dim('c');
-
-    Lb = b.dim('l');
-    Cb = b.dim('c');
-
-    LX = X.dim('l');
-    CX = X.dim('c');
-
-    LAA = AA.dim('l');
-    CAA = AA.dim('c');
-
-    Lbb = bb.dim('l');
-    Cbb = bb.dim('c');
-
-
-    if(LA!=CA)
-    {
-        cout << "\nA matriz A nao e quadrada. Funcao EliminGaussPivo abortando...";
-        abort();
-    }
-
-    if(CA!=Cb)
-    {
-        cout << "\nA matriz A e o vetor b nao possuem dimensoes iguais. Funcao EliminGaussPivo abortando...";
-        abort();
-    }
-
-    if(CA!=CAA||LA!=LAA)
-    {
-        cout << "\nAs matrizes A e AA nao possuem dimensoes iguais. Funcao EliminGaussPivo abortando...";
-        abort();
-    }
-
-    if(Cb!=Cbb)
-    {
-        cout << "\nOs vetores b e bb nao possuem dimensoes iguais. Funcao EliminGaussPivo abortando...";
-        abort();
-    }
-
-    if(Cb!=CX)
-    {
-        cout << "\nOs vetores b e X possuem dimensoes diferentes. Funcao EliminGaussPivo abortando...";
-        abort();
-    }
-
-
-    Copia(A,AA);
-    Copia(b,bb);
-
-    int a, dimA, i, j, k, n, m;
-    double w, vb, temp_AA, temp_bb;
-
-    //n √© a dimens√£o do problema
-    n = b.dim('c');
-
-    Matriz linhapivo(1,n), linhasubst(1,n);
-
-
-    //percorre as linhas da matriz
-    for(k=0;k<=n-2;k++)
-    {
-        //atribui o valor da primeira linha como pivo
-        w = AA.saida(k,k);
-
-        //percorre as colunas da matriz
-        for(j=k+1;j<=n-1;j++)
-        {
-            //compara os valores das linhas para ver qual √© o maior
-            if(abs(AA.saida(j,k))>abs(w))
-            {
-                //se o valor de AA.saida na posi√ßao (j,k) > que o pivo, assume esse valor como novo pivo
-                w = AA.saida(j,k);
-
-                //copia a linha pivo pra um vetor temporario
-                for(a=0;a<=n-1;a++)
-                {
-                    linhapivo.entrada(0,a,AA.saida(j,a));
-                }
-
-                //copia o valor do vetor b na posi√ß√£o k (linha pivo) para uma variavel temporaria
-                vb = bb.saida(0,j);
-
-                //copia a linha a ser substituida pra posicao da linha pivo
-                for(a=0;a<=n-1;a++)
-                {
-                    AA.entrada(j,a,AA.saida(k,a));
-                }
-
-                //insere a linha pivo na matriz na posi√ßao da primeira
-                for(a=0;a<=n-1;a++)
-                {
-                    AA.entrada(k,a,linhapivo.saida(0,a));
-                }
-
-                //insere o valor do pivo do vetor b na primeira posi√ßao
-                for(a=0;a<=n-1;a++)
-                {
-                    bb.entrada(0,j,bb.saida(0,k));
-                }
-
-                //insere o valor da variavel temporaria no vetor b
-                for(a=0;a<=n-1;a++)
-                {
-                    bb.entrada(0,k,vb);
-                }
-
-            }
-
-        }
-
-    }
-
-
-    cout << "\naqui\n";
-    AA.imprime();
-    cout << "\n";
-
-    //escalonamento:
-
-    for(k=0;k<=n-2;k++)
-    {
-        for (i=k+1;i<=n-1;i++)
-        {
-            m = AA.saida(i,k)/AA.saida(k,k);
-            AA.entrada(i,k,0);
-
-            for(j=k+1;j<=n-1;j++)
-            {
-                //Aij - mAij
-                temp_AA = AA.saida(i,j) - m*AA.saida(k,j);
-                AA.entrada(i,j,temp_AA);
-
-                //bi - mbk
-                temp_bb = bb.saida(0,i) - m*bb.saida(0,k);
-
-            }
-
-            bb.entrada(0,i,temp_bb);
-
-            if(DBGVIEW==1)
-            {
-                cout << "\n\n";
-                cout << "\nMatriz que esta sendo escalonada\n";
-                AA.imprime();
-            }
-
-        }
-    }
-
-
-//    //imprime as matrizes
-//    cout <<"\n";
-//    AA.imprime();
-//    cout << "\n";
-//    bb.imprime();
-
-
-    //resolucao do sitema AX=b
-    double bn_ann, SOMAT, temp;
-
-    n=b.dim('c');
-
-    bn_ann = b.saida(0,n-1)/A.saida(n-1,n-1);
-
-    X.entrada(0,n-1,bn_ann);
-
-    //For que percorre as linhas de baixo para cima
-    for (i=n-2 ; i>=0 ; i--);
-    {
-        //For que resolve o somatorio
-        SOMAT = 0;
-        for (j=i+1;j<=n-1;j++);
-        {
-            SOMAT = SOMAT + (A.saida(i,j)*X.saida(0,j));
-        }
-
-        temp = (b.saida(0,i) - SOMAT)/A.saida(i,i);
-
-        X.entrada(0,i,temp);
-
-    }
-
-}
 
 
 
-void SOR(Matriz A, Matriz b, Matriz X0, double w, double mx, double tol, Matriz &X, int DBG_VIEW)
+void SOR(Matriz A, Matriz b, Matriz X0, double w, double mx, double tol, Matriz X, int DBG_VIEW)
 {
 
 
@@ -822,55 +680,54 @@ void SOR(Matriz A, Matriz b, Matriz X0, double w, double mx, double tol, Matriz 
     //declaracao de variaveis
     int n = A.dim('c'),i,j,k;
     double  somat1, somat2;
-    Matriz Xk1(1, 5), temp(1,5);
+    Matriz Xk, Xk1(0,n);
 
 
-   Copia(X0,X);
+    Copia(X,X0);
 
 
     for (k=0; k<mx; k++) //limita o numero de iteracoes em mx
     {
-        for (i=1; i<n ; i++)
+        for (i=1; i<n; i++)
         {
-            somat1 = 0.0;
-            somat2 = 0.0;
-            for (j=0;j<i-1; j++)
+            somat1 = 0;
+            somat2 = 0;
+            for (j=0;j<(i-1); i++)
             {
-                somat1 += A.saida(i,j)*Xk1.saida(0,j);
-
+                somat1 = somat1 + A.saida(i,j)*Xk1.saida(0,j);
             }
-            for (j=i+1;j<n;j++)
+            for (j=(i+1);j<n;j++)
             {
-                somat2 += A.saida(i,j)*X.saida(0,j);
-
+                somat2 = somat2 + A.saida(i,j)*Xk.saida(0,j);
             }
-            Xk1.entrada(0,i,((1-w)*X.saida(0,i)+(w/A.saida(i,i))*(b.saida(0,i)-somat1-somat2)));
+        Xk1.entrada(0,i,(1-w)*Xk.saida(0,i)+(w/A.saida(i,i))*(b.saida(0,i)-somat1-somat2));
         }
 
-        double modulo = 0;
-
-        SUBTRAI(X, Xk1, temp);
+        double somat = 0;
 
         for(i=0;i<n;i++)
         {
-            modulo += pow(temp.saida(0,i), 2);
+            somat = somat + (Xk1.saida(0,i)-Xk.saida(0,i)); //soma os termos dos vetores
         }
 
-        cout << modulo;
+        if (somat<0) //faz o modulo
+        {
+            somat = somat * -1;
+        }
 
-        if (modulo<tol) //verifica se o resultado alcancou a tolerancia
+        if (somat<tol) //verifica se o resultado alcancou a tolerancia
         {
             cout << "Solucao:\n";
-            Xk1.imprime(10);
+            Xk1.imprime();
             break;
         }
 
         if (DBG_VIEW==1)
         {
-            if (modulo >= tol)
+            if (somat >= tol)
             {
-                cout << "\nA estimativa obtida para a iteracao " << k+1 << " e: \n";
-                X.imprime(10);
+                cout << "A estimativa obtida para a iteracao " << k+1 << " e: \n";
+                Xk.imprime(10);
                 cout << "\n";
             }
         }
@@ -880,66 +737,37 @@ void SOR(Matriz A, Matriz b, Matriz X0, double w, double mx, double tol, Matriz 
             cout << "Nao houve convergencia\n";
             break;
         }
-        Copia(Xk1, X);
+        Xk=Xk1;
     }
 }
 
-
-void delf (Matriz A,  Matriz B,  Matriz &X,  Matriz &AA, Matriz &BB, double mx,  double tol, int DBG_VIEW)
+void gradvet (Matriz X, int i, Matriz &OUT, double h)
 {
-     if (A.dim('l')!= A.dim('c')) //verifica se a matriz e quadrada
-    {
-        cout << "A Matriz nao e quadrada. Abortando...\n";
-        abort();
-    }
-    if (B.dim('l')== 1) //verificar seo numero de colunas da matriz A e do vetor sao iguais
-    {
-        cout << "O numero de linhas da matriz B nao pode ser maior que 1, pois √© um vetor. Abortando\n";
-        abort();
-    }
-     if (X.dim('l')== 1) //verificar seo numero de colunas da matriz A e do vetor sao iguais
-    {
-        cout << "O numero de linhas da matriz X nao pode ser maior que 1, pois √© um vetor. Abortando\n";
-        abort();
-    }
-
-    Copia(A, AA);
-    Copia(B, BB);
-
-    for ( int k =0; k< mx; k++)
-    {
-
-    }
-
-
-
+    //a
 }
 
 
 
 
 
-
-
-
-// Transposi√ß√£o de Matriz
+// TransposiÁ„o de Matriz
 
 
 // ========================================================================================
-// A TUA PROGRAMA√á√ÉO DEVE FICAR ANTES DESSA MENSAGEM. DEIXE 5 LINHAS ABAIXO SEM PROGRAMA√á√ÉO
+// A TUA PROGRAMA«√O DEVE FICAR ANTES DESSA MENSAGEM. DEIXE 5 LINHAS ABAIXO SEM PROGRAMA«√O
 // .
 // .
 // .
 // .
 // .
 
-// Fun√ß√£o de teste. mantenha essa fun√ß√£o no fim do arquivo. N√£o a apague.
+// FunÁ„o de teste. mantenha essa funÁ„o no fim do arquivo. N„o a apague.
 // apenas programa acima dela.
 void TesteDeFuncaoComCabecalho (void)
 {
-    // o prot√≥tipo da fun√ß√£o foi declarada no arquivo .h (header)
-    // nesse arquivo (.cpp) √© onde iremos realizar a programa√ß√£o do que
-    // queremos que a fun√ß√£o fa√ßa. Nessa fun√ß√£o de teste, ela ir√° apenas
+    // o protÛtipo da funÁ„o foi declarada no arquivo .h (header)
+    // nesse arquivo (.cpp) È onde iremos realizar a programaÁ„o do que
+    // queremos que a funÁ„o faÁa. Nessa funÁ„o de teste, ela ir· apenas
     // imprimir um pequeno texto na tela.
 
     cout << "Esta e uma funcao de teste." << endl;

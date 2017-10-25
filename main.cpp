@@ -31,46 +31,11 @@ int main()
     // =============================================
 
 
-    double MA[25] = {2,5,1,1,3,    8,-2,3,-3,-5,    4,-4,7,1,-1,   1,1,1,-4,2,   -1,-2,2,2,4};
-    double Vb[5] = {56,-12,-48,6,-15};
-    double EST[5] ={0,0,0,0,0};
-
-    Matriz A(MA,5,5);
-    Matriz b(Vb,1,5);
-    Matriz X0(EST,1,5);
-    Matriz X(1,5);
 
 
-    SOR(A,b,X0,0.5,100,0.000001,X,1);
+metsec(1,2,0.001,10,1);
 
-
-//    double MA[25]={2,3,-1,5,5,  5,-10,11,13,-1,  8,1,1,1,2,  11,5,-3,-3,1,  2,2,1,7,-14};
-//    double Mb[5]={-4,25,-4,7,150};
-//
-//
-//    Matriz A(MA,5,5);
-//    A.imprime();
-//    cout << "\n\n";
-//    Matriz b(Mb,1,5);
-//    b.imprime();
-//
-//    Matriz X(1,5);
-//
-//    Matriz AA(5,5);
-//    Matriz bb(1,5);
-//
-//    cout << "\nA partir daqui:\n\n";
-//
-//    EliminGaussPivo(A,b,X,AA,bb);
-//    cout << "\n\n\n\n";
-
-
-
-
-
-
-
-
+return (0);
 
 
 

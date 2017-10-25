@@ -11,7 +11,7 @@
 	"minhabiblioteca.h"
 	"matriz.h"
 
-1505657259 
+1504642800 
 
 1484495153 x:\onedrive\trabalho\cefet\disciplinas\c·lculo numÈrico\base de programaÁ„o\basedeprogramacao\minhabiblioteca.cpp
 	"minhabiblioteca.h"
@@ -36,7 +36,7 @@
 1486988071 source:x:\onedrive\trabalho\cefet\disciplinas\c·lculo numÈrico\base de programaÁ„o\basedeprogramacao\minhasfuncoes.cpp
 	"minhasfuncoes.h"
 
-1505310859 coes.h"
+1503433284 coes.h"
 
 1486988071 x:\onedrive\trabalho\cefet\disciplinas\c·lculo numÈrico\base de programaÁ„o\basedeprogramacao\minhasfuncoes.h
 
@@ -719,13 +719,13 @@
 1503433284 source:c:\users\thaidy deguchi\downloads\programa\minhasfuncoes.cpp
 	"minhasfuncoes.h"
 
-1505600840 source:f:\cpp\calcnum\main.cpp
+1505333686 source:/home/igor/MEGAsync/Calculo Num√©rico/Programa/main.cpp
 	<iostream>
 	"matriz.h"
 	"minhabiblioteca.h"
 	"minhasfuncoes.h"
 
-1505310859 f:\cpp\calcnum\matriz.h
+1504643465 /home/igor/MEGAsync/Calculo Num√©rico/Programa/matriz.h
 	<cassert>
 	<cstdlib>
 	<iostream>
@@ -734,34 +734,34 @@
 	<stdio.h>
 	<string>
 
-1505594542 f:\cpp\calcnum\minhabiblioteca.h
+1504643466 /home/igor/MEGAsync/Calculo Num√©rico/Programa/minhabiblioteca.h
 	<cassert>
 	<cstdlib>
 	"matriz.h"
 
-1505310859 f:\cpp\calcnum\minhasfuncoes.h
+1504643466 /home/igor/MEGAsync/Calculo Num√©rico/Programa/minhasfuncoes.h
 	"matriz.h"
 
-1505310859 source:f:\cpp\calcnum\matriz.cpp
+1505332648 source:/home/igor/MEGAsync/Calculo Num√©rico/Programa/matriz.cpp
 	"matriz.h"
 
-1505657259 source:f:\cpp\calcnum\minhabiblioteca.cpp
+1505332619 source:/home/igor/MEGAsync/Calculo Num√©rico/Programa/minhabiblioteca.cpp
 	<iostream>
 	"minhabiblioteca.h"
 	"matriz.h"
 	"minhasfuncoes.h"
 	<math.h>
 
-1505310859 source:f:\cpp\calcnum\minhasfuncoes.cpp
+1504643466 source:/home/igor/MEGAsync/Calculo Num√©rico/Programa/minhasfuncoes.cpp
 	"minhasfuncoes.h"
 
-1505751061 source:/home/igor/√Årea de Trabalho/calcnum-master/main.cpp
+1505503267 source:/home/igor/√Årea de Trabalho/Programa/main.cpp
 	<iostream>
 	"matriz.h"
 	"minhabiblioteca.h"
 	"minhasfuncoes.h"
 
-1505659039 /home/igor/√Årea de Trabalho/calcnum-master/matriz.h
+1504643465 /home/igor/√Årea de Trabalho/Programa/matriz.h
 	<cassert>
 	<cstdlib>
 	<iostream>
@@ -770,24 +770,61 @@
 	<stdio.h>
 	<string>
 
-1505750278 /home/igor/√Årea de Trabalho/calcnum-master/minhabiblioteca.h
+1505501791 /home/igor/√Årea de Trabalho/Programa/minhabiblioteca.h
 	<cassert>
 	<cstdlib>
 	"matriz.h"
 
-1505659039 /home/igor/√Årea de Trabalho/calcnum-master/minhasfuncoes.h
+1504643466 /home/igor/√Årea de Trabalho/Programa/minhasfuncoes.h
 	"matriz.h"
 
-1505659365 source:/home/igor/√Årea de Trabalho/calcnum-master/matriz.cpp
+1505332648 source:/home/igor/√Årea de Trabalho/Programa/matriz.cpp
 	"matriz.h"
 
-1505750731 source:/home/igor/√Årea de Trabalho/calcnum-master/minhabiblioteca.cpp
+1504643466 source:/home/igor/√Årea de Trabalho/Programa/minhasfuncoes.cpp
+	"minhasfuncoes.h"
+
+1505503012 source:/home/igor/√Årea de Trabalho/Programa/minhabiblioteca.cpp
 	<iostream>
 	"minhabiblioteca.h"
 	"matriz.h"
 	"minhasfuncoes.h"
 	<math.h>
 
-1505659039 source:/home/igor/√Årea de Trabalho/calcnum-master/minhasfuncoes.cpp
+1505589548 source:/home/igor/Programa-SOR/matriz.cpp
+	"matriz.h"
+
+1504643465 /home/igor/Programa-SOR/matriz.h
+	<cassert>
+	<cstdlib>
+	<iostream>
+	<cmath>
+	<iomanip>
+	<stdio.h>
+	<string>
+
+1506991538 source:/home/igor/Programa-SOR/minhabiblioteca.cpp
+	<iostream>
+	"minhabiblioteca.h"
+	"matriz.h"
+	"minhasfuncoes.h"
+	<math.h>
+
+1505589651 /home/igor/Programa-SOR/minhabiblioteca.h
+	<cassert>
+	<cstdlib>
+	"matriz.h"
+
+1507060803 /home/igor/Programa-SOR/minhasfuncoes.h
+	"matriz.h"
+
+1507231969 source:/home/igor/Programa-SOR/minhasfuncoes.cpp
+	"minhasfuncoes.h"
+	"minhabiblioteca.h"
+
+1507232042 source:/home/igor/Programa-SOR/main.cpp
+	<iostream>
+	"matriz.h"
+	"minhabiblioteca.h"
 	"minhasfuncoes.h"
 

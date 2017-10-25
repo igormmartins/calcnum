@@ -306,7 +306,7 @@ double Matriz::saida(int L, int C)
     }
     else
     {
-        cout << "Erro de indice da matriz. Abortando...\n\n";
+        cout << "Erro de indice da matriz 1. Abortando...\n\n";
         abort();
     }
 }
@@ -321,7 +321,7 @@ double Matriz::saida(int POSITION)
     }
     else
     {
-        cout << "Erro de indice da matriz. Abortando...\n\n";
+        cout << "Erro de indice da matriz 2. Abortando...\n\n";
         abort();
     }
 }
@@ -336,7 +336,7 @@ void Matriz::entrada(int L, int C, double IN)
     }
     else
     {
-        cout << "Erro de indice da matriz. Abortando...\n\n";
+        cout << "Erro de indice da matriz 3. Abortando...\n\n";
         abort();
     }
 
@@ -351,7 +351,7 @@ void Matriz::entrada(int POSITION , double IN)
     }
     else
     {
-        cout << "Erro de indice da matriz. Abortando...\n\n";
+        cout << "Erro de indice da matriz 4. Abortando...\n\n";
         abort();
     }
 }

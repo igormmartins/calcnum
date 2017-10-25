@@ -12,7 +12,6 @@
 // funções padrão para execução do algoritmo
 double funcaopadrao( Matriz &);
 double funcaopadrao( double );
-void funcaopadrao(Matriz &, Matriz &);
 
 
 
@@ -21,7 +20,10 @@ double xquadrado (double);
 double xcubo (double);
 double parabol(Matriz );
 int fatorial (int);
-
+double Bissecao(double, double, int, double=0.000001, double=0);
+double MN1(double , double , int);
+double metsec(double, double, double=0.01, int=100, int = 0);
+void funcaopadrao (Matriz, Matriz &);
 
 
 // A TUA DECLARAÇÃO DE PROTÓTIPOS DEVE FICAR ANTES DESSA MENSAGEM. DEIXE 5 LINHAS ABAIXO SEM PROGRAMAÇÃO

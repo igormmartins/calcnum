@@ -1,4 +1,4 @@
-// Arquivo de cabe√ßalho minhabiblioteca.h. Cont√©m os prot√≥tipos das fun√ß√µes
+// Arquivo de cabeÁalho minhabiblioteca.h. ContÈm os protÛtipos das funÁıes
 #ifndef MINHABIBLIOTECA
 #define MINHABIBLIOTECA
 
@@ -10,7 +10,7 @@
 // .
 // .
 // .
-// A TUA DECLARA√á√ÉO DE PROT√ìTIPOS DEVE FICAR DEPOIS DESSA MENSAGEM. DEIXE 5 LINHAS ACIMA SEM PROGRAMA√á√ÉO
+// A TUA DECLARA«√O DE PROT”TIPOS DEVE FICAR DEPOIS DESSA MENSAGEM. DEIXE 5 LINHAS ACIMA SEM PROGRAMA«√O
 void Identidade (Matriz &);
 void Copia (Matriz & , Matriz&);
 void SOMA(Matriz & , Matriz &, Matriz &);
@@ -27,21 +27,21 @@ double derivCEN( double , double=0.01);
 double derivPARC( Matriz , int , double=0.01);
 void TriangSup (Matriz , Matriz  , Matriz &);
 void EliminGauss (Matriz , Matriz , Matriz &, Matriz &);
+void EliminGaussPivot(Matriz , Matriz , Matriz &, Matriz &);
 void Jacobi ( Matriz , Matriz , Matriz , Matriz &, double=0.000001, int=1000);
-void EliminGaussPivo(Matriz , Matriz , Matriz &, Matriz &, Matriz &, int DBGVIEW = 0);
-void SOR (Matriz , Matriz , Matriz , double , double , double , Matriz &, int DBG_VIEW = 0);
-void delf (Matriz,  Matriz,  Matriz &,  Matriz &, Matriz &, double mx,  double tol, int DBG_VIEW = 0 );
+void SOR(Matriz , Matriz , Matriz , double , double, double , Matriz , int = 0 );
+void gradvet (Matriz, int, Matriz &, double=0.0001);
 
-// TUA DECLARA√á√ÉO DE PROT√ìTIPOS AQUI......................
+// TUA DECLARA«√O DE PROT”TIPOS AQUI......................
 
-// A TUA DECLARA√á√ÉO DE PROT√ìTIPOS DEVE FICAR ANTES DESSA MENSAGEM. DEIXE 5 LINHAS ABAIXO SEM PROGRAMA√á√ÉO
+// A TUA DECLARA«√O DE PROT”TIPOS DEVE FICAR ANTES DESSA MENSAGEM. DEIXE 5 LINHAS ABAIXO SEM PROGRAMA«√O
 // .
 // .
 // .
 // .
 // .
 
-// Fun√ß√£o de teste. mantenha essa fun√ß√£o no fim do arquivo. N√£o a apague.
+// FunÁ„o de teste. mantenha essa funÁ„o no fim do arquivo. N„o a apague.
 void TesteDeFuncaoComCabecalho (void);
 
 #endif // MINHABIBLIOTECA
